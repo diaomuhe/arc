@@ -32,7 +32,9 @@ checkm lineage_wf -f checkm.txt -t 8 -x fa . checkm_out # run checkm
 >checkm unbinned -h
 # extract unbinned sequences and get unbinned sequence statistics
 >checkm unbinned -x fa ../ your_contig_file_longer_than_500bp.fasta your_sample_id.unbinned.fna your_sample_id.unbinned_stats.txt
-
+```
+### checkm utility example
+```
 cd checkm_out
 checkm coverage -x fa ../ C4.checkm_coverage.bins.tsv /gpfs/ebg_projects/subsurface/crash_course/mdiao/mapping/C4_mapping_bbmap/*sorted.bam.rename.bam > C4.coverage.log.txt
 checkm profile C4.checkm_coverage.bins.tsv > C4.checkm_profile.bins.txt
