@@ -21,7 +21,7 @@ checkm lineage_wf -f checkm.txt -t 8 -x fa . checkm_out # run checkm
 # print the "checkm coverage" usage message. This command needs the sorted and indexed bam files
 >checkm coverage -h
 #produces coverage profiles for all the MAGs inside the "binning" directory
->checkm coverage -x fa ../ your_sample_id.checkm_coverage.bins.tsv the_path_to_your_mapping_dir_generated_in_mapping_section/*sorted.bam >& your_sample_id.coverage.log.txt
+>checkm coverage -x fa ../ your_sample_id.checkm_coverage.bins.tsv the_path_to_your_mapping_dir_generated_in_mapping_section/*sorted.bam > your_sample_id.coverage.log.txt
 
 # print the "checkm profile" usage message
 >checkm profile -h
