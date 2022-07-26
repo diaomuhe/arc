@@ -11,4 +11,8 @@ Tried `python setup.py install`, but did not work
 
 # Running checkm2
 ```
-checkm2 predict --threads 30 --input <folder_with_bins> --output-directory <output_folder> 
+export PATH=/home/muhe.diao/miniconda3/bin:$PATH
+conda activate checkm2
+module load prodigal/v2.6.3
+module load diamond/v2.0.6
+bin/checkm2 predict --threads 30 --input <folder_with_bins> --output-directory <output_folder> 
