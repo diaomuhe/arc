@@ -3,10 +3,11 @@
 ```
 export PATH=/home/muhe.diao/miniconda3/bin:$PATH
 git clone --recursive https://github.com/chklovski/checkm2.git && cd checkm2
-conda create -n checkm2 python=3.9 # conda env create -n checkm2 -f checkm2.yml did not work
+conda env create -n checkm2 -f checkm2.yml
 conda activate checkm2
-python setup.py install
+bin/checkm2 -h # run checkm2 without installation
 ```
+Tried `python setup.py install`, but did not work
 
 # Running checkm2
 ```
