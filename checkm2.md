@@ -15,4 +15,7 @@ export PATH=/home/muhe.diao/miniconda3/bin:$PATH
 conda activate checkm2
 module load prodigal/v2.6.3
 module load diamond/v2.0.6
-/home/muhe.diao/programs/checkm2/bin/checkm2 predict --threads 30 --input <folder_with_bins> --output-directory <output_folder> 
+/home/muhe.diao/programs/checkm2/bin/checkm2 predict --threads 30 --input ./*.fa --output-directory checkm2_out 
+
+
+https://github.com/chklovski/CheckM2
