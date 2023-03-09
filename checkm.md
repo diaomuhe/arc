@@ -11,6 +11,9 @@ conda install -c bioconda checkm-genome
 export PATH=/home/muhe.diao/miniconda3/bin:$PATH
 conda activate checkm
 export CHECKM_DATA_PATH=/work/ebg_lab/referenceDatabases/checkm # use the reference data on shared ebg directory
+conda activate pplacer # load pplacer
+module load hmmer/v3.3 # load hmmer
+module load prodigal/v2.6.3 # load prodigal
 checkm lineage_wf -f checkm.txt -t 8 -x fa . checkm_out # run checkm
 ```
 ## checkm utility 
