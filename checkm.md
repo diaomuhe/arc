@@ -4,6 +4,13 @@ export PATH=/home/muhe.diao/miniconda3/bin:$PATH
 conda create -n checkm python=3.9
 conda activate checkm
 conda install -c bioconda checkm-genome
+
+### Install dependencies
+pip install pysam
+pip install dendropy
+conda create -n pplacer python=3.9
+conda activate pplacer
+conda install -c bioconda pplacer 
 ```
 # Run checkm on arc server
 ## Inspection MAGs
