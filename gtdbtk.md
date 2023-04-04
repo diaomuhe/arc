@@ -8,5 +8,6 @@ conda create -y -n gtdbtk
 conda activate gtdbtk
 conda install -c bioconda gtdbtk
 download-db.sh # download the lastest database
+export GTDBTK_DATA_PATH=/work/ebg_lab/referenceDatabases/GTDB_R207/release207_v2 # set the path to the reference data
 export GTDBTK_DATA_PATH=/home/muhe.diao/.conda/envs/gtdbtk/share/gtdbtk-2.1.0/db # set the path to the reference data
 ```
