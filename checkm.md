@@ -21,7 +21,7 @@ export CHECKM_DATA_PATH=/work/ebg_lab/referenceDatabases/checkm # use the refere
 conda activate pplacer # load pplacer
 module load hmmer/v3.3 # load hmmer
 module load prodigal/v2.6.3 # load prodigal
-checkm lineage_wf -f checkm.txt -t 8 -x fa . checkm_out # run checkm
+checkm lineage_wf -f checkm.txt -t 8 -x fa PATH_To_Bins checkm_out # run checkm
 ```
 ## checkm utility 
 ```
