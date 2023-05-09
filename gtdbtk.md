@@ -11,3 +11,14 @@ download-db.sh # download the lastest database
 export GTDBTK_DATA_PATH=/work/ebg_lab/referenceDatabases/GTDB_R207/release207_v2 # set the path to the reference data
 export GTDBTK_DATA_PATH=/home/muhe.diao/.conda/envs/gtdbtk/share/gtdbtk-2.1.0/db # set the path to the reference data
 ```
+
+# install gtdbtk v2.3.0
+```
+export PATH=/home/muhe.diao/miniconda3/bin:$PATH
+conda create -y -n gtdbtk-2.3.0
+conda activate gtdbtk-2.3.0
+conda install -c bioconda gtdbtk
+```
+Actually still get the version 2.1.0
+
+
