@@ -19,6 +19,11 @@ conda create -y -n gtdbtk-2.3.0
 conda activate gtdbtk-2.3.0
 conda install -c bioconda gtdbtk
 ```
-Actually still get the version 2.1.0
+Still get the version 2.1.0 on arc server
+
+```
+conda create -n gtdbtk-2.3.0 -c conda-forge -c bioconda gtdbtk=2.3.0
+```
+Successfully installed on local PC
 
 
