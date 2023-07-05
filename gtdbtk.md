@@ -1,5 +1,4 @@
-# install gtdbtk v2.1.0
-delete the old version of gtdbtk on arc server 
+## install gtdbtk v2.1.0
 
 ```
 export PATH=/home/muhe.diao/miniconda3/bin:$PATH
@@ -14,16 +13,8 @@ export GTDBTK_DATA_PATH=/home/muhe.diao/.conda/envs/gtdbtk/share/gtdbtk-2.1.0/db
 
 # install gtdbtk v2.3.0
 ```
-export PATH=/home/muhe.diao/miniconda3/bin:$PATH
-conda create -y -n gtdbtk-2.3.0
-conda activate gtdbtk-2.3.0
-conda install -c bioconda gtdbtk
-```
-Still get the version 2.1.0 on arc server
-
-```
 conda create -n gtdbtk-2.3.0 -c conda-forge -c bioconda gtdbtk=2.3.0
 ```
-Successfully installed on local PC
+
 
 
