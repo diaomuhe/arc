@@ -1,4 +1,12 @@
 # Install checkm on arc server
+## Updated install
+```
+cnoda create -n checkm
+conda activate checkm
+conda install -c bioconda checkm-genome
+
+```
+## old version install
 ```
 export PATH=/home/muhe.diao/miniconda3/bin:$PATH
 conda create -n checkm python=3.9
