@@ -1,7 +1,7 @@
 # Install checkm on arc server
 ## Updated install
 ```
-cnoda create -n checkm
+conda create -n checkm
 conda activate checkm
 conda install -c bioconda checkm-genome
 
