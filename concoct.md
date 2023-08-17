@@ -1,4 +1,5 @@
 ```
 conda create -n concoct
 conda activate concoct
-conda install -c bioconda concoct
+conda create -n concoct_env python=3 concoct
+```
