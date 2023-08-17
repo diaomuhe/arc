@@ -1,6 +1,4 @@
 ```
-conda create -n concoct
-conda activate concoct
 conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
