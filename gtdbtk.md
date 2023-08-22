@@ -14,6 +14,7 @@ export GTDBTK_DATA_PATH=/home/muhe.diao/.conda/envs/gtdbtk/share/gtdbtk-2.1.0/db
 # install gtdbtk v2.3.0
 ```
 conda create -n gtdbtk-2.3.0 -c conda-forge -c bioconda gtdbtk=2.3.0
+conda env config vars set GTDBTK_DATA_PATH="/work/ebg_lab/referenceDatabases/GTDB_R214" # set up reference database
 ```
 
 
